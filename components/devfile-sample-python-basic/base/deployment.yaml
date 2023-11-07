@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic
     spec:
       containers:
-      - image: quay.io/acmiel-rhtap/default/test-application/devfile-sample-python-basic@sha256:17ba5e5371f8dc5ce835dfc234c2c91ca2b006c4457b309af9ce05172140e8ea
+      - image: quay.io/acmiel-rhtap/default/test-application/devfile-sample-python-basic@sha256:6f6102aa2027d8d37af8abfb3581533e250c14db8fd31d71c71f73797efc06df
         name: my-python
         ports:
         - containerPort: 8081
